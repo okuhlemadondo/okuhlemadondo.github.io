@@ -76,6 +76,15 @@ p {
 }
 
 @media (max-width: 768px) {
+  #Video {
+    display: none;
+  }
+
+  body {
+    background: url("bg.jpeg");
+    background-size: cover;
+  }
+
   h1 {
     font-size: 3.8em;
   }
@@ -106,6 +115,15 @@ p {
 }
 
 @media (max-width: 375px) {
+  #Video {
+    display: none;
+  }
+
+  body {
+    background: url("bg.jpeg");
+    background-size: cover;
+  }
+
   h1 {
     font-size: 3em;
   }
